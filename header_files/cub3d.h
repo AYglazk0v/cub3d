@@ -13,11 +13,11 @@
 #ifndef CUB3D_H
 # define CUB3D_H
 
-# define SCALE 10
-# define MOUSE_HIDE 35
 
 # define WIN_HEIGHT 1200
 # define WIN_WIDTH 1800
+
+# define SCALE 10
 
 # define NORTH 2
 # define SOUTH 3
@@ -39,9 +39,13 @@
 #  define LEFT 97
 #  define RIGHT 100
 #  define ROTATE_L 65361
+#  define SPACE 32
 #  define ROTATE_R 65363
 #  define EXIT_KEY 65307
+#  define MOUSE_HIDE 109
 # else
+#  define SPACE 49
+#  define MOUSE_HIDE 35
 #  define FORWARD 13
 #  define BACKWARD 1
 #  define LEFT 0

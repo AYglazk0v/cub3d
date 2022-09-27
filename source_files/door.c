@@ -19,7 +19,7 @@ int	door_open(t_cub *cub, int keycode)
 	int	diff_y;
 
 	i = 0;
-	if (keycode == 49)
+	if (keycode == SPACE)
 	{
 		while (i < cub->cnt_door)
 		{
@@ -44,7 +44,7 @@ int	door_close(t_cub *cub, int keycode)
 	int	diff_y;
 
 	i = 0;
-	if (keycode == 49)
+	if (keycode == SPACE)
 	{
 		while (i < cub->cnt_door)
 		{
